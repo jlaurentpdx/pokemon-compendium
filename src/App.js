@@ -9,13 +9,21 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await getPokemon();
-      console.log(data);
-      setPokemon(data);
+      setPokemon(data.results);
     };
     fetchData();
   }, []);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <h1>Pokédex Compendium</h1>
+      {pokemon.map((pokemon) => (
+        <div key={pokemon.id}>
+          <p>{pokemon.pokemon}</p>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export default App;
