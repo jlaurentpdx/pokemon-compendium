@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { getPokemon } from './services/pokemon';
+import PokeList from './components/PokeList';
 
 function App() {
   const [pokemon, setPokemon] = useState([]);
+  const [query, setQuery] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -14,13 +15,18 @@ function App() {
     fetchData();
   }, []);
 
+  const filterPokemon = () => {
+    return pokemon.filter((pokemon) => {
+      return pokemon.pokemon.includes(query);
+    });
+  };
+
   return (
     <div className="App">
       <h1>Pokédex Compendium</h1>
-      {pokemon.map((pokemon) => (
-        <div key={pokemon.id}>
-          <p>{pokemon.pokemon}</p>
-        </div>
+      <input value={query} onChange={(e) => setQuery(e.target.value)} />
+      {filterPokemon().map((pokemon) => (
+        <PokeList key={pokemon.id} pokemon={pokemon.pokemon} />
       ))}
     </div>
   );
