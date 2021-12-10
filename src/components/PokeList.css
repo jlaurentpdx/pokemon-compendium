@@ -1,0 +1,40 @@
+.pokemon-card {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  opacity: 0.1;
+  min-height: 1.5rem;
+  width: 60vw;
+}
+
+.image {
+  max-width: 50px;
+}
+
+.name {
+  min-width: 1vw;
+  font-size: 1.3rem;
+}
+
+.stats-div {
+  min-width: 40vw;
+  max-width: 80vw;
+}
+
+.pokemon-card:hover {
+  font-weight: bolder;
+  opacity: 1;
+  text-align: center;
+}
+
+.pokemon-card:hover > .image {
+  max-width: 200px;
+}
+
+.pokemon-card:hover > .stats-div > span {
+  display: block;
+}
+
+.stat {
+  color: greenyellow;
+}

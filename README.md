@@ -7,5 +7,5 @@
     - [x] PokeList/PokeList.js - render and display Pokemon and information about them
   - [x] src/services/
     - [x] pokemon.js - calling Pokemon API
-- [ ] Create State for Pokemon, loading, query, order, and current page
-- [ ] Render list of Pokemon from API
+- [x] Create State for Pokemon, loading, query, order, and current page
+- [x] Render list of Pokemon from API

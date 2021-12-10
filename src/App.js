@@ -3,6 +3,7 @@ import './App.css';
 import { getPokemon, getTypes } from './services/pokemon';
 import PokeList from './components/PokeList';
 import Controls from './components/Controls';
+import BackToTop from 'react-back-to-top-button';
 
 function App() {
   const [pokemon, setPokemon] = useState([]);
@@ -39,6 +40,9 @@ function App() {
         sort={sort}
         setSort={setSort}
       />
+      <BackToTop showOnScollUp showAt={100} speed={1500} easing="easeInOutQuint">
+        <span className="scroll-button">back to top</span>
+      </BackToTop>
       <PokeList pokemon={pokemon} />
     </div>
   );
