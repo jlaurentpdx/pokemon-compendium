@@ -1,0 +1,1028 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a load state, then a filtered list of Pokemon 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      Pokédex Compendium
+    </h1>
+    <div
+      class="controls"
+    >
+      <input
+        placeholder="Search Pokédex"
+        type="text"
+        value=""
+      />
+      <select>
+        <option
+          value="asc"
+        >
+          asc
+        </option>
+        <option
+          value="desc"
+        >
+          desc
+        </option>
+      </select>
+      <select
+        style="text-transform: capitalize;"
+      >
+        <option
+          value="all"
+        >
+          all
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="bug"
+        >
+          bug
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="dark"
+        >
+          dark
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="dragon"
+        >
+          dragon
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="electric"
+        >
+          electric
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="fairy"
+        >
+          fairy
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="fighting"
+        >
+          fighting
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="fire"
+        >
+          fire
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="flying"
+        >
+          flying
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="ghost"
+        >
+          ghost
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="grass"
+        >
+          grass
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="ground"
+        >
+          ground
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="ice"
+        >
+          ice
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="normal"
+        >
+          normal
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="poison"
+        >
+          poison
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="psychic"
+        >
+          psychic
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="rock"
+        >
+          rock
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="steel"
+        >
+          steel
+        </option>
+        <option
+          style="text-transform: capitalize;"
+          value="water"
+        >
+          water
+        </option>
+      </select>
+    </div>
+    <button
+      class="back-to-top sc-bdVaJa fWohKN"
+    >
+      <span
+        class="scroll-button"
+      >
+        back to top
+      </span>
+    </button>
+    <div
+      class="pokemon-list"
+    >
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/460.png"
+        />
+        <div
+          class="name"
+        >
+          abomasnow
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              90
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              92
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              75
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              92
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              85
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              60
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png"
+        />
+        <div
+          class="name"
+        >
+          abra
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              25
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              20
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              15
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              105
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              55
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              90
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/359.png"
+        />
+        <div
+          class="name"
+        >
+          absol
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              65
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              130
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              60
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              75
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              60
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              75
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/617.png"
+        />
+        <div
+          class="name"
+        >
+          accelgor
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              80
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              70
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              40
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              100
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              60
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              145
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png"
+        />
+        <div
+          class="name"
+        >
+          aerodactyl
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              80
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              105
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              65
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              60
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              75
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              130
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/306.png"
+        />
+        <div
+          class="name"
+        >
+          aggron
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              70
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              110
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              180
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              60
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              60
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              50
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/190.png"
+        />
+        <div
+          class="name"
+        >
+          aipom
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              55
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              70
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              55
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              40
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              55
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              85
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png"
+        />
+        <div
+          class="name"
+        >
+          alakazam
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              55
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              50
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              45
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              135
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              95
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              120
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/594.png"
+        />
+        <div
+          class="name"
+        >
+          alomomola
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              165
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              75
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              80
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              40
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              45
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              65
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/334.png"
+        />
+        <div
+          class="name"
+        >
+          altaria
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              75
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              70
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              90
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              70
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              105
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              80
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/698.png"
+        />
+        <div
+          class="name"
+        >
+          amaura
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              77
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              59
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              50
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              67
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              63
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              46
+            </span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="pokemon-card"
+        style="text-transform: capitalize;"
+      >
+        <img
+          class="image"
+          src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/424.png"
+        />
+        <div
+          class="name"
+        >
+          ambipom
+        </div>
+        <div
+          class="stats-div"
+        >
+          <span>
+            HP: 
+            <span
+              class="stat"
+            >
+              75
+            </span>
+             
+          </span>
+          <span>
+            Attack: 
+            <span
+              class="stat"
+            >
+              100
+            </span>
+             
+          </span>
+          <span>
+            Defense: 
+            <span
+              class="stat"
+            >
+              66
+            </span>
+             
+          </span>
+          <span>
+            Sp. Attack: 
+            <span
+              class="stat"
+            >
+              60
+            </span>
+             
+          </span>
+          <span>
+            Sp. Defense: 
+            <span
+              class="stat"
+            >
+              66
+            </span>
+             
+          </span>
+          <span>
+            Speed: 
+            <span
+              class="stat"
+            >
+              115
+            </span>
+             
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
